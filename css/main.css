@@ -1,0 +1,102 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   Name: Md.Hemaet Uddin Rinto
+   Company: Subornovumi Ltd.
+   Phone: 01676670862
+   E-mail: hemaet07@gmail.com
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100);
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.r-header{
+	font-family: raleway;
+	font-size: 14px;
+	text-align: center;
+	background-color: #2ab969;
+	margin-top: -20px !important;
+	margin-bottom: -10px !important;
+	padding: 50px 0 50px 0;
+}
+
+.r-title{
+	font-family: lobster;
+	font-size: 5em;
+	color:#fff;
+
+}
+
+.r-subTitle{
+	font-size: 2em;
+	color:#fff;
+	font-style: normal;
+	font-weight: 100;
+	padding: 5px 0 5px 0;
+	}
+
+.r-icon{
+	color:#373737;
+	border: 1px solid  #fff;
+	text-align: center;
+	padding: 50px 10px 10px 10px;
+}
+
+.r-iconf{
+	color:#373737;
+	border: 1px solid  #fff;
+	text-align: center;
+	padding: 50px 20px 10px 20px;
+}
+
+.r-iconl{
+	color:#373737;
+	border: 1px solid  #fff;
+	text-align: center;
+	padding: 50px 15px 10px 15px;
+}
+
+.r-icon:hover{
+	color:#fff;
+	border: 1px solid  #373737;
+}
+
+.r-iconf:hover{
+	color:#fff;
+	border: 1px solid  #373737;
+}
+
+.r-iconl:hover{
+	color:#fff;
+	border: 1px solid  #373737;
+}
+
+.r-social{
+	margin: 50px 0 40px 0;
+}
+
+.r-aboutMe{
+	background: url(../img/about.jpg)no-repeat;
+	margin: -20px 0 -10px 0;
+	padding: 50px 0 70px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
