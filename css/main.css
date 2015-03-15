@@ -13,14 +13,13 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100);
 @import "font-awesome-sprockets";
 @import "font-awesome";
-
+*{margin: 0 auto
+}
 .r-header{
 	font-family: raleway;
 	font-size: 14px;
 	text-align: center;
 	background-color: #2ab969;
-	margin-top: -20px !important;
-	margin-bottom: -10px !important;
 	padding: 50px 0 50px 0;
 }
 
@@ -81,22 +80,85 @@
 }
 
 .r-aboutMe{
-	background: url(../img/about.jpg)no-repeat;
-	margin: -20px 0 -10px 0;
+	background: url(../img/about.jpg); /*no-repeat 50% 0 fixed;*/
+	position: relative;
+	min-height: 250px;
+	width: 100%;
 	padding: 50px 0 70px 0;
 	text-align: center;
+
+}
+
+.abaout{
+	position: absolute;
+	top:-55px;
+	right: 460px;
+	
 }
 
 .r-about-slide{
-	margin: 20px 0 10px 0;
+	/*margin: 20px 0 10px 0;*/
 }
 .r-me{
 	width: 230px;
 	height: 230px;
 	border: 5px solid #2ab969;
+	margin: 10px 0 10px 100px;
 	/*border-radius: 10px;*/
 }
 
+.r-about-description{
+	font-family: raleway;
+	text-align: justify;
+	padding: 40px 40px 0 0;
+	margin-right: 50px;
+}
+
+.carousel-indicators {
+  bottom:-50px;
+}
+
+.carousel-indicators li {
+  /*background-color: #669966;*/
+  /*line-height: 1.5em;*/
+  background: transparent url('../img/whitedot.png') 50% 0 no-repeat;
+  /*list-style-image: url('../img/next.png');*/
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  /*font-size: 20px;*/
+}
+.carousel-indicators .active {
+  /*background-color: #FF7600;*/
+  background: transparent url('../img/greendot.png') 50% 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  /*list-style-image: url('../img/greendot.png');*/
+}
+
+.carousel-control .glyphicon,
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  font-family: serif;
+}
+
+.carousel-control .icon-prev:before {
+  content: '\2039';
+}
+
+.carousel-control .icon-next:before {
+  content: '\203a';
+}
 
 
 
